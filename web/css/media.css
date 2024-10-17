@@ -1,0 +1,640 @@
+@media screen and (max-width: 1680px) {
+	#header.home .topline .btn {
+		display: none;
+	}
+} /*1680*/
+
+@media screen and (max-width: 1440px) {
+	
+	#header.home .topline {
+		padding: 0 20px;
+	}
+	
+	#header.home .link {
+		margin-right: 45px;
+	}
+	
+	#header .social-network2 {
+		right: 20px;
+	}
+	
+} /*1440*/
+
+@media screen and (max-width: 1280px) {
+	.wrap {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
+	#header.home .link {
+		margin-right: 30px;
+	}
+	
+} /*1280*/
+
+@media screen and (max-width: 1170px) {
+	
+	/*  header
+    ------------------------------------------------------- */
+	#header .menu-toggle {
+		display: block;
+	}
+	
+	#header.home .topline .btn,
+	#header .topline .btn {
+		display: block;
+	}
+	
+	#header .nav {
+		display: none;
+	}
+	
+	#header .content .input__field,
+	#header .content .btn {
+		width: 195px;
+	}
+	
+	/*  schools
+    ------------------------------------------------------- */
+	.schools .item .wrap-price {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: flex-start;
+				align-items: flex-start;
+	}
+	
+	.schools .item .view {
+		margin-top: 20px;
+	}
+	
+	/*  countries
+    ------------------------------------------------------- */
+	.countries .item {
+		width: calc((100% - 6px) / 3);
+	}
+	
+	.country-item {
+		width: calc((100% - 60px) / 3);
+	}
+	
+	.country-item:nth-child(4n) {
+		margin-right: 30px;
+	}
+	
+	.country-item:nth-child(3n) {
+		margin-right: 0;
+	}
+	
+} /*1170*/
+
+@media screen and (max-width: 1024px) {
+	
+	.section h1,
+	.section h2 {
+		margin-bottom: 40px;
+	}
+	
+	/*  header
+    ------------------------------------------------------- */
+	#header.home {
+		height: auto;
+	}
+	
+	#header .content {
+		padding: 200px 20px;
+		position: static;
+		-webkit-transform: translateY(0);
+				transform: translateY(0);
+	}
+	
+	#header .content .form {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	#header .content .form > div:first-child {
+		margin-bottom: 20px;
+	}
+	
+	#header .content .input__field,
+	#header .content .btn {
+		width: 200px;
+	}
+	
+	#header .content .input__field:not(.input__select) {
+		width: 400px;
+	}
+	
+	/*  section schools (home)
+    ------------------------------------------------------- */
+	.schools-recommend {
+		-webkit-justify-content: center;
+				justify-content: center
+	}
+	
+	.schools-recommend .item {
+		width: calc((100% - 30px) / 2);
+	}
+	
+	.schools-recommend .item:nth-child(2n + 1) {
+		margin-right: 30px;
+	}
+	
+	/*  languages
+    ------------------------------------------------------- */
+	.languages .item {
+		width: calc((100% - 300px) / 3);
+	}
+	
+	/*  schools
+    ------------------------------------------------------- */
+	.schools .item {
+		width: calc((100% - 30px) / 2);
+	}
+	
+	.schools .item:nth-child(2n) {
+		margin-right: 0;
+	}
+	
+	.schools .item:nth-child(3n) {
+		margin-right: 30px;
+	}
+	
+	.schools .item .wrap-price {
+		-webkit-flex-direction: row;
+				flex-direction: row;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	.schools .item .view {
+		margin: 0;
+	}
+	
+} /*1024*/
+
+
+@media screen and (max-width: 970px) {
+	
+	.wrap {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	
+	/*  reasons
+    ------------------------------------------------------- */
+	.section-reasons .item {
+		width: 50%;
+		max-width: 380px;
+	}
+	
+	.section-reasons .item:nth-child(4) {
+		margin-bottom: 60px;
+	}
+	
+	/*  product
+    ------------------------------------------------------- */
+	#product .photo {
+		display: none;
+	}
+	
+	#product .content {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+	}
+	
+	#product .column-left {
+		width: 100%;
+	}
+	
+	.calc {
+		position: static;
+		margin: 40px 0 0;
+		width: 100%;
+		max-width: 360px;
+	}
+	
+	/*  countries
+    ------------------------------------------------------- */
+	.countries .item {
+		width: calc((100% - 3px) / 2);
+	}
+	
+	/*  info page countries 
+    ------------------------------------------------------- */
+	.country-item {
+		width: calc((100% - 30px) / 2);
+	}
+	
+	.country-item:nth-child(3n) {
+		margin-right: 30px;
+	}
+	
+	.country-item:nth-child(2n) {
+		margin-right: 0;
+	}
+	
+	/*  footer
+    ------------------------------------------------------- */
+	#footer .row:first-child {
+		-webkit-flex-wrap: wrap;
+				flex-wrap: wrap;
+		-webkit-justify-content: center;
+				justify-content: center;
+	}
+	
+	#footer .row:first-child > div {
+		width: 180px;
+	}
+	
+	#footer .row:first-child > div:nth-child(1),
+	#footer .row:first-child > div:nth-child(2) {
+		margin-bottom: 40px;
+	}
+	
+	#footer .row:first-child > div:nth-child(1),
+	#footer .row:first-child > div:nth-child(3) {
+		margin-right: 210px;
+	}
+	
+	#footer .row:last-child {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	.modal {
+		max-height: calc(100vh - 90px);
+	}
+} /*970*/
+
+@media screen and (max-width: 750px) {
+	
+	/*  header
+    ------------------------------------------------------- */
+	#header.home .topline .btn,
+	#header .topline .btn,
+	#header .social-network2,
+	.scroll-down {
+		display: none;
+	}
+	
+	#header .content {
+		padding: 100px 20px;
+	}
+	
+	#header .content .form > div {
+		width: 100%;
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	#header .content .form > div:first-child {
+		margin: 0;
+	}
+	
+	#header .content .input__field,
+	#header .content .input__field:not(.input__select) {
+		margin-bottom: 10px;
+		width: 100%;
+		max-width: 340px;
+		height: 50px;
+		line-height: 50px;
+	}
+	
+	#header .content .form-select {
+		width: 100%;
+		top: 50px;
+	}
+	
+	#header .content .btn {
+		width: 100%;
+		max-width: 340px;
+		height: 50px;
+		line-height: 50px;
+	}
+	
+	/*  reasons
+    ------------------------------------------------------- */
+	.section-reasons .item {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	
+	.section-reasons .item:last-child {
+		margin: 0;
+	}
+	
+	/*  section schools (home)
+    ------------------------------------------------------- */
+	.schools-recommend {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	.schools-recommend .item {
+		width: 100%;
+	}
+	
+	.schools-recommend .item:nth-child(2n + 1) {
+		margin-right: 0;
+	}
+	
+	/*  how-it-works
+    ------------------------------------------------------- */
+	.how-it-works .item {
+		margin-bottom: 60px;
+	}
+	
+	.how-it-works .item::before {
+		bottom: -42px;
+	}
+	
+	.how-it-works .item svg {
+		width: 90px;
+		height: 90px;
+	}
+	
+	/*  section discuss
+    ------------------------------------------------------- */
+	.section-discuss .form {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	.section-discuss .column {
+		margin: 0 0 40px;
+		width: 100%;
+		max-width: 400px;
+	}
+	
+	/*  countries
+    ------------------------------------------------------- */
+	.countries {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	.countries .item {
+		margin: 0 0 3px;
+		width: 100%;
+	}
+	
+	.countries .item:last-child {
+		margin: 0;
+	}
+	
+	/*  info page countries 
+    ------------------------------------------------------- */
+	.countries-info {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+	}
+	
+	.country-item {
+		margin-right: 0;
+		width: 100%;
+	}
+	
+	.country-item:nth-child(3n) {
+		margin-right: 0;
+	}
+	
+	/*  schools
+    ------------------------------------------------------- */
+	.schools {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	.schools .item,
+	.schools .item:nth-child(3n) {
+		margin: 0 0 30px;
+		width: 100%;
+	}
+	
+	.schools .item:last-child {
+		margin: 0;
+	}
+	
+	/*  languages
+    ------------------------------------------------------- */
+	.section-languages {
+		padding-top: 40px;
+	}
+	
+	.languages .item {
+		margin: 0 40px 60px;
+		width: calc((100% - 200px) / 2);
+	}
+	
+	/*  product
+    ------------------------------------------------------- */
+	#product .switch {
+		display: none;
+	}
+	
+	#product .switch-mob {
+		display: inline-block;
+	}
+	
+	.wrap-pagination {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+	}
+	
+	.number-page {
+		margin-top: 40px;
+	}
+	
+	/*  contacts
+    ------------------------------------------------------- */
+	#contacts .content {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+	}
+	
+	#contacts .column-left {
+		margin: 0 0 40px;
+	}
+	
+	#contacts .form {
+		max-width: 392px;
+	}
+	
+	/*  review
+    ------------------------------------------------------- */
+	.review {
+		padding: 105px 10px 29px;
+		text-align: center;
+	}
+	
+	.review .avatar {
+		top: 20px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+	}
+	
+	.articles .content {
+		-webkit-justify-content: center;
+				justify-content: center;
+	}
+	
+	.articles-item {
+		width: 100%;
+		max-width: 600px;
+	}
+	
+	/*  footer
+    ------------------------------------------------------- */
+	#footer .row:first-child > div:nth-child(1),
+	#footer .row:first-child > div:nth-child(3) {
+		margin-right: 100px;
+	}
+	
+} /*750*/
+
+@media screen and (max-width: 600px) {
+	.modal {
+		top: 0;
+		width: 100%;
+		max-height: 100vh;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+	/*  how-it-works
+    ------------------------------------------------------- */	
+	.how-it-works .item {
+		margin-bottom: 40px;
+	}
+	
+	.how-it-works .item::before {
+		bottom: -22px;
+	}
+	
+	.how-it-works .item svg {
+		width: 75px;
+		height: 75px;
+	}
+	
+	/*  languages
+    ------------------------------------------------------- */
+	.section-languages {
+		padding-top: 40px;
+	}
+	
+	.languages {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+	}
+	
+	.languages .item {
+		margin: 0 0 50px;
+		width: 100%;
+	}
+	
+	.pagination > .more-page {
+		display: none;
+	}
+	
+	#footer .row:first-child {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: center;
+				align-items: center;
+	}
+	
+	#footer .row:first-child > div:nth-child(1),
+	#footer .row:first-child > div:nth-child(3) {
+		margin: 0 0 40px;
+	}
+	
+	#footer p {
+		max-width: 390px;
+	}
+	
+	#footer p > br {
+		display: none;
+	}
+	
+	#footer .input__field > .btn {
+		width: 150px;
+	}
+	
+} /*480*/
+
+@media screen and (max-width: 440px) {
+	.section-reviews .content {
+		padding: 0;
+	}
+	
+	.section-reviews .item {
+		opacity: 0;
+		width: calc(100vw - 20px);
+	}
+	
+	.section-reviews .slick-active {
+		opacity: 1;
+	}
+	
+	.section-reviews .container {
+		width: 100%;
+	}
+	
+	.section-reviews .arrows {
+		position: static;
+		-webkit-transform: translateY(0);
+				transform: translateY(0);
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: center;
+				justify-content: center;
+	}
+	
+	.section-reviews .slick-arrow.right {
+		margin: 0 0 0 10px;
+	}
+} /*440*/
+
+
+@media screen and (max-width: 375px) {
+	.btn3 {
+		padding-left: 85px;
+	}
+
+	.btn3::after {
+		width: 51px;
+	}
+	
+	.calc .registration-fee > span:first-child {
+		max-width: 200px;
+		line-height: 1.3;
+	}
+	
+	.schools .item .wrap-price {
+		-webkit-flex-direction: column;
+				flex-direction: column;
+		-webkit-align-items: flex-start;
+				align-items: flex-start;
+	}
+	
+	.schools .item .view {
+		margin-top: 20px;
+	}
+} /*375*/
