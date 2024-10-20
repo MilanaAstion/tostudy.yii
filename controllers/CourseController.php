@@ -152,4 +152,9 @@ class CourseController extends Controller
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
+    public function actionAccomodation($course_id)
+    {
+        dd($course_id);
+    }
 }

@@ -12,7 +12,6 @@ use yii\bootstrap4\NavBar;
 use app\components\BreadcrumbsWidget;
 
 PublicAsset::register($this);
-
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -33,13 +32,17 @@ PublicAsset::register($this);
 
         <!-- <?//= $this->render('@app/views/templates/breadcrumbs.php');  ?> -->
 
-        <?= BreadcrumbsWidget::widget(['breadcrumbs' => $this->params["breadcrumbs"]]);  ?>
+        <!-- <?//= BreadcrumbsWidget::widget(['breadcrumbs' => $this->params["breadcrumbs"]]);  ?> -->
+        <?= Breadcrumbs::widget([
+            'homeLink' => ['label' => 'Главная', 'url' => ['/main/index']],
+            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+        ]) ?>
 
         <?= Alert::widget() ?>
 
         <?= $content ?>
 
-        <?= $this->render('@app/views/templates/footer.php');  ?>
+        <?= $this->render('@app/views/templates/footer2.php');  ?>
 
     </div>
 

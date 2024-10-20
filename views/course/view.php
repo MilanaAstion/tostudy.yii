@@ -26,6 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'method' => 'post',
             ],
         ]) ?>
+         <?= Html::a('Проживание', ['/course/accomodation/'.$model->col_id], ['class' => 'btn btn-primary']) ?>
     </p>
 
     <?= DetailView::widget([

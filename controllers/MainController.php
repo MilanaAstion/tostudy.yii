@@ -18,7 +18,7 @@ class MainController extends Controller
     public function actionIndex()
     {
         $schools = School::find()->where(['col_home_page' => School::HOME_PAGE])->all();
-        
+
         return $this->render('index', [
             'schools' => $schools,
         ]);
@@ -49,6 +49,7 @@ class MainController extends Controller
         // dd($course_id);
         $school = School::findOne(['col_id' => $school_id]);
         $course = $course_id ? Course::findOne(['col_id' => $course_id]) : false;
+        // dd($course);
         // $courses = Course::getCourseCost($school->courses);
         // $course = Course::findOne(['col_id'=>10]);
         // dd($school->accommodation);

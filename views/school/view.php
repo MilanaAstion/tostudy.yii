@@ -25,7 +25,6 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]) ?>
         <?= Html::a('Courses', ['course/school/'. $model->col_id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Проживание', ['update', 'col_id' => $model->col_id], ['class' => 'btn btn-primary']) ?>
     </p>
 
     <?= DetailView::widget([

@@ -16,12 +16,15 @@
             <option value="">Не выбрано</option>
             <!-- class="js-course-option" -->
             <?foreach($school->courses as $item):?>
-                
-                <?if($course->col_id == $item->col_id):?>
-                    <option selected value="<?=$item->col_id?>"><?=$item->col_title_ru?></option>
-                <?else:?> 
+                <?php if (!isset($course) || !is_object($course)): ?>
                     <option value="<?=$item->col_id?>"><?=$item->col_title_ru?></option>
-                <?endif;?>    
+                <?php else: ?>
+                    <?php if ($course->col_id == $item->col_id): ?>
+                        <option selected value="<?=$item->col_id?>"><?=$item->col_title_ru?></option>
+                    <?php else: ?> 
+                        <option value="<?=$item->col_id?>"><?=$item->col_title_ru?></option>
+                    <?php endif; ?>  
+                <?php endif; ?>
             <?endforeach;?>
         </select> <!-- /.form-select -->
     </div> <!-- /.input__field -->
